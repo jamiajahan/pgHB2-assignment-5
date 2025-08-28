@@ -67,8 +67,3 @@ document.querySelectorAll(".callBtn").forEach((btn) => {
     }
   });
 });
-
-// --- CLEAR HISTORY ---
-clearHistoryBtn.addEventListener("click", () => {
-  historyList.innerHTML = "";
-});
